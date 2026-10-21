@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">QUESTIFY</string>
+    <string-array name="team_members">
+        <item>Santiago Restrepo</item>
+        <item>Josue Pino</item>
+        <item>Sebastian Cruz</item>
+    </string-array>
+</resources>
