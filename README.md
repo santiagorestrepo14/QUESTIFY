@@ -77,18 +77,7 @@ La XP es progreso permanente: no se gasta y el nivel nunca baja.
 - **Glitch Relic**: logo oculto cuyo requisito no se muestra hasta descubrir suficientes secretos.
 - **107 logros secretos** que se activan con la hora, la fecha, la batería o tus hábitos.
 
-## ✅ Requisitos de la entrega
 
-| Requisito | Cómo se cumple |
-|---|---|
-| Mínimo 5 secciones | Splash, Inicio, Retos, Logros, Créditos (+ Ajustes) |
-| Niveles / tiempo | Minijuegos de 3 niveles con límite de tiempo |
-| UI personalizada | Tema oscuro propio, logo, íconos por tipo de logro y 9 logos |
-| Persistencia entre vistas | `AppViewModel` + Room + DataStore |
-| Animaciones y sonidos | Splash animado, desbloqueos animados, señales de éxito/fallo y notas sintetizadas |
-| Wireframe | [Figma](https://www.figma.com/design/UwoU1Mq6kLKIBC9ObZW80W/LIFELVL-%25C2%25B7-Alta-fidelidad?node-id=0-1) |
-| Publicación | [Google Play](https://play.google.com/store/apps/details?id=com.irlachievements.app) |
-| Bonus easter eggs | Glitch in Reality, Glitch Relic y logros secretos |
 
 ## 🏗️ Arquitectura
 
@@ -125,38 +114,17 @@ Todos los permisos son opcionales y la app funciona sin ellos (los retos que los
 
 No se usan ubicación, cámara, contactos ni archivos. Política completa: [Política de privacidad](https://sites.google.com/view/questify-privacidad/p%C3%A1gina-principal).
 
-## 🚀 Cómo ejecutarlo
 
-**Requisitos:** Android Studio, JDK 17 o superior (verificado con JDK 24) y un dispositivo o emulador con Android 9 (API 28) o superior.
-
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/santiagorestrepo14/QUESTIFY.git
-   ```
-2. En Android Studio elige **Open** y selecciona la carpeta del proyecto.
-3. Espera el Gradle Sync y ejecuta el módulo `app`.
-
-Desde la terminal (Windows):
-
-```powershell
-.\gradlew.bat testDebugUnitTest assembleDebug
-```
-
-El APK queda en `app/build/outputs/apk/debug/app-debug.apk`.
-
-> Los sensores físicos (movimiento, luz, micrófono) deben probarse en un teléfono real; el emulador solo permite verificar navegación y estados.
 
 ## 👥 Equipo
 
-| Integrante | Responsabilidad |
+| Integrante | 
 |---|---|
-| Santiago Restrepo | [Responsabilidad] |
-| Josué Pino | Reglas de logros, XP, minijuegos y pruebas de dominio |
-| Sebastián Cruz | [Responsabilidad] |
+| Santiago Restrepo | 
+| Josué Pino | 
+| Sebastián Cruz |
 
-## 🤖 Uso de IA
 
-Se utilizó asistencia de IA para implementar y revisar código, proponer pruebas y preparar documentación y el diseño en Figma. Cada integrante revisó su parte y puede explicarla y modificarla. Las 324 pruebas unitarias verifican que las reglas del juego funcionan como se describe.
 
 ---
 
